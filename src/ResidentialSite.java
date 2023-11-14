@@ -6,8 +6,7 @@ public class ResidentialSite implements Site{
     }
 
     private double getTax(double base) {
-        double tax = base * Site.taxRate;
-        return tax;
+        return base * Site.taxRate;
     }
 
     private double getBase(double units, double rate) {
